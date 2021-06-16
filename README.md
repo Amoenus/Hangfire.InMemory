@@ -38,7 +38,7 @@ Distributed locks (heh, in an in-process storage), queue fetch logic (even from 
 </Project>
 ```
 
-After the package is installed we can use the new `UseMemoryStorage` method for the `IGlobalConfiguration` interface to register the storage.
+After the package is installed we can use the new `UseInMemoryStorage` method for the `IGlobalConfiguration` interface to register the storage.
 
 ```csharp
 GlobalConfiguration.Configuration.UseInMemoryStorage();
